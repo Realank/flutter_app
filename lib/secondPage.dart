@@ -24,7 +24,7 @@ class FavouritePage extends StatelessWidget {
 
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('Saved Suggestions'),
+        title: new Text('Favourite'),
       ),
       body: new ListView(children: divided),
     );
